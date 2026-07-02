@@ -26,7 +26,7 @@ const Navbar = () => {
             onClick={() => setOpen(false)}
           >
             <img
-              src="https://placehold.co/80x80"
+              src="/logo.png"
               alt="ZAO Foundation"
               className="w-14 h-14 rounded-full object-cover"
             />
