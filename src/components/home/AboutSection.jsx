@@ -22,14 +22,13 @@ const AboutSection = () => {
             <div className="absolute -top-8 -left-8 w-48 h-48 bg-[#C8102E]/10 rounded-full blur-2xl" />
 
             <img
-              src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
-              alt="ZAO Foundation"
-              className="rounded-[30px] w-full h-[500px] object-cover shadow-2xl"
-            />
+  src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80"
+  alt="ZAO Foundation"
+  className="rounded-[30px] w-full h-[280px] sm:h-[350px] md:h-[450px] lg:h-[500px] object-cover shadow-2xl"
+/>
 
             {/* Floating Card */}
-            <div className="absolute bottom-6 right-6 bg-white rounded-2xl shadow-xl p-6 max-w-[220px]">
-
+<div className="hidden md:block absolute bottom-6 right-6 bg-white rounded-2xl shadow-xl p-6 max-w-[220px]">
               <h3 className="text-3xl font-bold text-[#C8102E]">
                 15+
               </h3>
